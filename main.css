@@ -1,0 +1,370 @@
+@charset "utf-8"
+
+/* ãƒ¦ãƒ‹ãƒãƒ¼ã‚µãƒ«ã‚»ã‚¯ã‚¿ã§ä½™ç™½ã‚’ãƒªã‚»ãƒƒãƒˆ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "æ¸¸æ˜Žæœ", YuMincho, "ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ ProN W3", "Hiragino Mincho ProN", "HGæ˜ŽæœE", "ï¼­ï¼³ ï¼°æ˜Žæœ", "ï¼­ï¼³ æ˜Žæœ", serif;
+}
+
+/* å…±é€šã‚³ãƒ³ãƒ†ãƒŠ */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.site_tel{
+  color: #C20D23;
+  font-size: 1.5em;
+}
+
+h1 {
+  display: block;
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.0em;
+}
+
+/* floatè§£é™¤ */
+
+.clearlist {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ãƒšãƒ¼ã‚¸ãƒˆãƒƒãƒ—ãƒœã‚¿ãƒ³ */
+
+.page_top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 100;
+}
+
+.page_top img {
+  width: 65px;
+  height: 65px;
+}
+
+/* ãƒ˜ãƒƒãƒ€ãƒ¼ */
+
+#site_logo {
+float: left;
+width: 65%;
+}
+
+#site_reserve {
+  float: right;
+  width: 35%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ */
+
+nav {
+background-color: #C20D23;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+/* ãƒ¡ã‚¤ãƒ³ã‚¤ãƒ¡ãƒ¼ã‚¸ */
+
+#mian_image img {
+  width: 100%;
+}
+
+/* ã‚³ãƒ³ã‚»ãƒ—ãƒˆ */
+
+#concept {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#concept_logo {
+  margin-bottom: -40px;
+}
+
+#concept h2 {
+  margin-right: 25px;
+}
+
+#concept p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#concept_image {
+  text-align: center;
+}
+
+/* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ */
+
+#menu {
+  background-color: #F5FFFA;
+  text-align: center;
+}
+
+#menu_logo {
+  margin-bottom: -40px;
+}
+
+.menu_box {
+  width: 29%;
+  float: left;
+  margin-left: 3%;
+  margin-bottom: 30px;
+}
+
+.menu_box img {
+  visibility: hidden;
+  width: 100%;
+  max-width: 300px;
+}
+
+.menu_box ul {
+  text-align: left;
+  font-size: 0.8em;
+  margin-left: 25px;
+}
+
+/* ã‚®ãƒ£ãƒ©ãƒªãƒ¼ */
+
+#gallery {
+  text-align: center;
+}
+
+#slide_show {
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+#slide {
+  width: 100000px;
+  list-style: none;
+}
+
+#slide li {
+  float: left;
+}
+
+#nav_btn .prev {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+#nav_btn .next {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+/* ã‚¢ã‚¯ã‚»ã‚¹ */
+
+#access {
+  text-align: center;
+}
+
+#access iframe {
+  width: 70%;
+}
+
+#access_logo {
+  margin-bottom: -40px;
+}
+
+#access_map {
+  float: left;
+  width: 50%;
+}
+
+#access_text {
+  float: right;
+  width: 50%;
+  text-align: left;
+  margin-top: 60px;
+}
+
+#access_reserve {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* ãƒ•ãƒƒã‚¿ãƒ¼ */
+
+footer {
+  background-color: #C20D23;
+  color: #fff;
+  text-align: center;
+}
+
+#spnavi {
+  display: none;
+}
+
+@media only screen and (max-width: 680px) {
+
+/* å…±é€šã‚³ãƒ³ãƒ†ãƒŠ */
+
+.container {
+  margin: 0 auto;
+}
+
+.site_tel{
+  font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+/* ãƒ˜ãƒƒãƒ€ãƒ¼ */
+
+#site_logo {
+float: none;
+width: 100%;
+}
+
+#site_logo img {
+	width: 90%;
+	max-width: 420px;
+}
+
+#site_reserve {
+  float: right;
+  width: 100%;
+  font-size: 0.8em;
+  margin-top: 0px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+nav a {
+	font-size: 0.8em;
+}
+
+/* ã‚³ãƒ³ã‚»ãƒ—ãƒˆ */
+
+#concept_logo {
+  width: 70%;
+}
+
+#concept_icon {
+	width: 70%;
+}
+
+#concept p {
+	font-size: 0.8em;
+	width: 100%;
+}
+
+/* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ */
+
+.menu_box {
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+.menu_box img {
+	max-width: 480px;
+}
+
+.menu_box ul li {
+	margin-left: 30px;
+}
+
+/* ã‚¢ã‚¯ã‚»ã‚¹ */
+
+#access_logo {
+	width: 70%;
+}
+
+#access_map {
+	float: none;
+	width: 100%;
+}
+
+#access_text {
+	float: none;
+	width: 90%;
+	margin-left: 30px;
+}
+
+/* ãƒ‰ãƒ­ãƒƒãƒ—ãƒ€ã‚¦ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼ */
+
+#spnavi {
+	display: block;
+	width: 150px;
+}
+
+#spnavi::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#drop_menu_icon {
+	width: 35px;
+	padding-top: 10px;
+	padding-left: 30px;
+	float: left;
+}
+
+#drop_menu_text {
+	width: 70px;
+	padding-top: 15px;
+	color: #fff;
+	float: right;
+}
+
+nav ul li {
+	width: 100%;
+}
+
+}
